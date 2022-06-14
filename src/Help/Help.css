@@ -1,0 +1,21 @@
+.Help{
+    margin-left: 225px;
+    font-size: large;
+    background-color: lightgray;
+    height: 600px;
+    width: 1000px;
+    border: outset;
+    border-radius: 2px;
+    position: sticky;
+    padding: 2px 0 0 12px;
+    margin-top: 20px; 
+}
+.suggestions{
+    color: black;
+    font-size: 30px;
+    
+}
+.solutions{
+    color: black !important;
+    text-decoration: none !important;   
+}

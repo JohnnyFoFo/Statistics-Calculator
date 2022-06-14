@@ -1,0 +1,77 @@
+.header{
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: medium;
+    background-color: white;
+    margin-top: 10px;
+    margin-bottom: 1px;
+    display: flex;
+    border: lightgray;
+    border-radius: 1px;
+    border-style: inset;
+    border-top: white;
+    border-left: white;
+    border-right: white;
+    
+    
+}
+
+.Title > img{
+    height:80px;
+    margin-left: 10px;
+}
+.Title{
+    flex: 1;
+    margin-left: 80px;
+    font-size: larger;
+}
+.Materialicon{
+    flex: 1;
+    cursor: pointer !important;
+    height: 80px !important;
+    width: 100px !important;
+    transform: scale(.9);
+   
+}
+.icons{
+    position: absolute;
+    left: 45%;
+}
+.About{
+    display: flex;
+}
+.aboutText{
+    flex: 1;
+    position: absolute;
+    left: 73%;
+    top: 8%;
+}
+.aboutLinks{
+    flex: 1;
+    position: absolute;
+    left: 80%;
+    top: 6%;
+    display: flex;
+    
+}
+.indivIcon{
+    margin-right: 20px;
+}
+.indivIcon:hover {
+    cursor: pointer;
+    transform: scale(1.1) !important;
+}
+
+.subheader{
+    flex: 1;
+}
+
+.toLink{
+    text-decoration: none;
+    
+}
+.toLink >p{
+    color: black;
+}
+
+

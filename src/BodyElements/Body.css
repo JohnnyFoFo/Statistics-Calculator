@@ -1,0 +1,13 @@
+.indCard :hover{
+        background-color: lightgray;
+        cursor: pointer;
+        /* width: 260px;
+        height: 160px;
+        cursor: pointer;
+        max-height: 160px;
+        max-width: 260px; */
+}
+.Body{
+        display: grid;
+        grid-template-columns: 300px 300px 300px;
+}

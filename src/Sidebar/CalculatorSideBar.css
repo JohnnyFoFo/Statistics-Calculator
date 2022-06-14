@@ -1,0 +1,52 @@
+.CalculatorSideBar{
+    background: white;
+    border-radius: 4px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+    padding: 16px;
+    width: 260px;
+    height: 500px;
+}
+.Inputs > input{
+    border: none;
+    background:none;
+    outline: none;
+    background-color: lightgray;
+    padding: 5px;
+    border-radius: 5px;
+    height:10px;
+    margin-bottom: 10px;
+}
+.description{
+    margin-top: 50px;
+    border: lightgray;
+    border-radius: 1px;
+    border-style: inset;
+    
+}
+.image{
+    margin-top: 20px;
+    width: 260px;
+    height: 150px;
+}
+
+.button{
+    margin-right: 20px;
+    margin-left: 90px;
+    height: 60px !important;
+    width: 60px !important;
+    cursor: pointer;
+}
+.result{
+    font: bold;
+    margin-top: 10px;
+    text-align: center;
+}
+.buttonBox{
+    display: flex;
+}
+.help{
+    cursor: pointer !important;
+}
+.errormessage{
+    display: flex;
+}
